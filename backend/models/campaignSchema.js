@@ -18,9 +18,7 @@ const campaign = new Schema(
     place: { type: String },
     time: { type: String },
     data: { type: String },
-    points: { type: Number },
-    category: { type: String },
-
+    createdAt:{type:String},
     volunteers: [
       {
         type: mongoose.Schema.Types.ObjectId,
